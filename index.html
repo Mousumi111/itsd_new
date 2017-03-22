@@ -10,10 +10,11 @@
 <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 
 <title>ITSD Coaching App</title>
-      <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap.css"/>
 <link rel="stylesheet" href="css/bootstrap-theme.css"/>
 <link rel="stylesheet" href="css/font-awesome.css"/>
+<link rel="stylesheet" href="css/animate.css" />
 <link rel="stylesheet" href="css/style.css"/>
 <!-- Favicons -->
 <link rel="icon" href="/favicon.ico">
@@ -28,7 +29,7 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-8">
 				<div class="logo">
-					<img src="img/Untitled-199901.png" alt=""/>
+					<img src="img/Untitled-199901.png" alt="" class="wow animated bounceInLeft"/>
 				</div>
 			</div>
 			<div class="col-md-2 col-sm-2">
@@ -403,7 +404,27 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!--WoW Js start-->
+  <script>
+      var wow = new WOW(
+          {
+              boxClass:     'wow',      // animated element css class (default is wow)
+              animateClass: 'animated', // animation css class (default is animated)
+              offset:       0,          // distance to the element when triggering the animation (default is 0)
+              mobile:       true,       // trigger animations on mobile devices (default is true)
+              live:         true,       // act on asynchronously loaded content (default is true)
+              callback:     function(box) {
+                  // the callback is fired every time an animation is started
+                  // the argument that is passed in is the DOM node being animated
+              }
+          }
+      );
+      wow.init();
+  </script>
+  <!--WoW Js end-->
 
-  
-</body>
+
+
+  </body>
 </html>
