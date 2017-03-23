@@ -211,7 +211,6 @@ body{
     font-family: 'Hind', sans-serif;
 }
 .dynamic_text p{
-    width: 244px;
     color: gray;
     font-family: 'Hind', sans-serif;
 }
@@ -221,6 +220,31 @@ body{
 }
 .student{
 
+}
+.modal_min{
+    width: 440px;
+    margin: auto;
+}
+.modal-content{
+    background: whitesmoke;
+}
+.modal_min p{
+
+}
+.modal-header{
+
+}
+.modal-header h4{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+.modal-body{}
+.modal-body p{
+    color: gray;
+    font-size: 14px;
+    font-family: 'Hind', sans-serif;
 }
 .high-area:hover{
     border:5px solid black
