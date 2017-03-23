@@ -114,6 +114,9 @@ body{
     text-align: center;
 
 }
+.middle-footer i:hover{
+    transform:rotate(360deg);
+}
 .live{
     background: black;
 }
