@@ -283,7 +283,7 @@ body{
     width: 256px;
 }
 .student_one{
-    margin-top: -45px;
+    margin-top: -82px;
 }
 .student_one h3{
     color: black;
@@ -320,7 +320,6 @@ body{
     font-family: 'Hind', sans-serif;
 }
 .dynamic_text_one p{
-    width: 244px;
     color: gray;
     font-family: 'Hind', sans-serif;
 }
