@@ -24,7 +24,7 @@
 
 
   <!--This is header area start-->
-<div class="header-bg">
+<div class="header-bg" id="home">
     <div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-8">
@@ -72,10 +72,10 @@
 
                       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                           <ul class="nav navbar-nav">
-                              <li><a href="#">Home</a></li>
-                              <li><a href="#">Features</a></li>
-                              <li><a href="#">Buy Now</a></li>
-                              <li><a href="#">Contact Us</a></li>
+                              <li><a href="#home">Home</a></li>
+                              <li><a href="#features">Features</a></li>
+                              <li><a href="#buy">Buy Now</a></li>
+                              <li><a href="#contact">Contact Us</a></li>
                           </ul>
                       </div>
                   </nav>
@@ -146,13 +146,14 @@
   <div class="container">
       <div class="row">
           <div class="col-md-12">
-              <div class="benefits">
+              <div class="benefits" id="features">
                     <h2 class="wow animated swing">The Benefits Of This App</h2>
                   <p>There are dozens of useful features!</p>
               </div>
           </div>
       </div>
   </div>
+  <div class="benifit"></div>
   <div class="container">
       <div class="row">
               <div class="col-md-3">
@@ -422,7 +423,7 @@
   <div class="container">
       <div class="row">
          <div class="col-md-12">
-             <div class="sms_plan">
+             <div class="sms_plan" id="buy">
                  <h2 class="wow animated swing">Choose Your SMS Plan</h2>
              </div>
          </div>
@@ -494,7 +495,7 @@
   <div class="container">
       <div class="row">
           <div class="col-md-12">
-              <div class="contact_text">
+              <div class="contact_text" id="contact">
                  <h2 class="wow animated swing">Contact With Us</h2>
               </div>
           </div>
@@ -539,9 +540,9 @@
               </div>
               <div class="col-md-4">
                   <div class="middle-footer">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="https://www.facebook.com/ITSolutionDinajpur/"><i class="fa fa-facebook"></i></a>
                       <a href="#"><i class="fa fa-google"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="https://twitter.com/ITSolutionDnj?lang=en"><i class="fa fa-twitter"></i></a>
                   </div>
               </div>
               <div class="col-md-4">
@@ -561,6 +562,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/wow.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+
+  <!--one page navigation Js start-->
+  <script>
+      $(document).ready(function() {
+          $('#nav').onePageNav();
+      });
+  </script>
+  <!--one page navigation Js end-->
   <!--WoW Js start-->
   <script>
       var wow = new WOW(
