@@ -283,11 +283,32 @@ body{
     width: 256px;
 }
 .student_one{
-    margin-top: -82px;
+    margin-top: -65px;
+}
+.list_1{
+    padding: 43px 2px;
+    background: black;
 }
 .student_one h3{
     color: black;
     font-family: 'Hind', sans-serif;
+}
+.list_1 nav{
+
+}
+.list_1 li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list_1 li a{
+    font-family: 'Hind', sans-serif;
+    display: block;
+    padding: 10px 10px;
+    margin-bottom: 25px solid gray;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-decoration: none;
+    color: gray;
 }
 .student_one p{
     width: 244px;
@@ -396,7 +417,8 @@ body{
     color: gray;
 }
 .list{
-    padding: 46px 2px;
+    padding: 43px 2px;
+
 }
 .list:hover{
     background: black;
