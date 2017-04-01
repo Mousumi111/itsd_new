@@ -6,6 +6,10 @@ body{
     height: 112px;
     border-bottom: 2px solid rgba(0, 174, 239, 0.45);
     width: 100%;
+    position: fixed;
+    top:0px;
+    margin: auto;
+    z-index: 99999;
 }
 .logo{
     height: 78px;
@@ -64,6 +68,11 @@ body{
 }
 .menu-header{
     background: #000000;
+    margin-top: 112px;
+    position: fixed;
+    top:0px;
+    z-index: 99999;
+    width: 100%;
 }
 .heading p{
     color: whitesmoke;
