@@ -3,7 +3,7 @@ body{
 }
 .header-bg{
     background: #2a3649;
-    height: 112px;
+    height: 60px;
     border-bottom: 2px solid rgba(0, 174, 239, 0.45);
     width: 100%;
     position: fixed;
@@ -12,15 +12,16 @@ body{
     z-index: 99999;
 }
 .logo{
-    height: 78px;
-    width: 174px;
+    height: 41px;
+    width: 74px;
     margin-left: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .logo img{
-    height: 56px;
-    width: 111px;
+    height: 41px;
+    width: 74px;
+    margin-top: -11px;
 }
 .phone{
     width: 200px;
@@ -28,8 +29,10 @@ body{
 }
 .phone p{
     color: #f2e8e8;
-    font-size: 16px;
     font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    font-family: 'Hind', sans-serif;
+    margin-top: -32px;
 
 }
 .phone i{}
@@ -38,26 +41,27 @@ body{
     font-family: 'Hind', sans-serif;
 }
 .buy{
-    height: 46px;
-    width: 134px;
+    height: 36px;
+    width: 100px;
     background: #00aeef;
     border: 1px solid #00aeef;
     border-radius: 3px;
-    margin-top: 31px;
+    margin-top: 6px;
     text-align: center;
 }
 .buy a{
-    color: white;
-    font-size: 16px;
+    font-size: 13px;
+    margin-top: 8px;
     margin-top: 10px;
     display: block;
     text-decoration: none;
+    color:white;
     font-family: 'Hind', sans-serif;
 }
 .buy i{
     color: white;
-    margin-right: 10px;
-    font-size: 20px;
+    margin-right: 2px;
+    font-size: 16px;
 }
 .heading{}
 .heading h2{
@@ -68,11 +72,12 @@ body{
 }
 .menu-header{
     background: #000000;
-    margin-top: 112px;
+    margin-top: 94px;
+    margin-top: 58px;
     position: fixed;
-    top:0px;
-    z-index: 99999;
     width: 100%;
+    z-index: 999;
+    height: 49px;
 }
 .heading p{
     color: whitesmoke;
@@ -82,7 +87,7 @@ body{
 }
 .menu{
     float:right;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 .extra_nav{
     background:none;
@@ -91,6 +96,7 @@ body{
 }
 .navbar-default .navbar-nav > li > a {
     color: #f5f5f5;
+    font-size: 15px;
 }
 .menu nav{}
 .menu nav a{
@@ -110,12 +116,13 @@ body{
 }
 .launch{
     text-align: center;
-    margin-top: 74px;
+    margin-top: 384px;
 }
 .launch h2{
     color: whitesmoke;
     font-size: 50px;
     font-family: 'Hind', sans-serif;
+    margin-top: -153px;
 }
 .launch p{
     color: whitesmoke;
@@ -124,7 +131,6 @@ body{
 
 }
 .middle-footer i:hover{
-    transform:rotate(360deg);
 }
 .live{
     background: black;
