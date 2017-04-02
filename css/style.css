@@ -32,7 +32,7 @@ body{
     font-family: 'Hind', sans-serif;
     font-size: 12px;
     font-family: 'Hind', sans-serif;
-    margin-top: -32px;
+    margin-top: -22px;
 
 }
 .phone i{}
@@ -46,7 +46,7 @@ body{
     background: #00aeef;
     border: 1px solid #00aeef;
     border-radius: 3px;
-    margin-top: 6px;
+    margin-top: 10px;
     text-align: center;
 }
 .buy a{
@@ -58,12 +58,17 @@ body{
     color:white;
     font-family: 'Hind', sans-serif;
 }
+.navbar-default .navbar-nav > li > a:hover{
+    color:#5bc0de;
+}
 .buy i{
     color: white;
     margin-right: 2px;
     font-size: 16px;
 }
-.heading{}
+.heading{
+    margin-top: -8px;
+}
 .heading h2{
     font-size: 28px;
     color: whitesmoke;
@@ -72,8 +77,7 @@ body{
 }
 .menu-header{
     background: #000000;
-    margin-top: 94px;
-    margin-top: 58px;
+    margin-top: 84px;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -122,7 +126,7 @@ body{
     color: whitesmoke;
     font-size: 50px;
     font-family: 'Hind', sans-serif;
-    margin-top: -153px;
+    margin-top: -176px;
 }
 .launch p{
     color: whitesmoke;
@@ -134,6 +138,7 @@ body{
 }
 .live{
     background: black;
+    margin-top: -24px;
 }
 .get{
     height: 40px;
@@ -190,7 +195,7 @@ body{
     height: 448px;
     border-radius: 10px;
     margin: auto;
-    margin-top: -336px;
+    margin-top: -340px;
     box-shadow: -1px 2px 47px grey;
 }
 .app img{
@@ -200,7 +205,7 @@ body{
 }
 .benefits{
     text-align: center;
-    margin-top: 82px;
+    margin-top: 120px;
 }
 .benefits h2{
     font-size: 40px;
@@ -392,10 +397,11 @@ body{
 .sms_plan{
     text-align: center;
     margin-bottom: 59px;
-    margin-top: -147px;
+    margin-top: -246px;
 }
 .sms_plan h2{
     font-size: 40px;
+    margin-top: 95px;
 
 }
 .high-area{
@@ -403,6 +409,8 @@ body{
     width: 100%;
     background: beige;
     height: 578px;
+    margin-top: -52px;
+
 }
 .list nav li a:hover{
     color:white

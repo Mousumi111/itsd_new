@@ -55,7 +55,9 @@ body{
     margin-right: 10px;
     font-size: 20px;
 }
-.heading{}
+.heading{
+    margin-top: -8px;
+}
 .heading h2{
     font-size: 28px;
     color: whitesmoke;
