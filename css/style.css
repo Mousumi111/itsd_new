@@ -9,7 +9,7 @@ body{
     position: fixed;
     top:0px;
     margin: auto;
-    z-index: 99999;
+    z-index: 999;
 }
 .logo{
     height: 41px;
@@ -334,6 +334,7 @@ body{
     color: gray;
     font-family: 'Hind', sans-serif;
 }
+
 .student_one a{
     text-decoration: none;
     font-family: 'Hind', sans-serif;
@@ -545,4 +546,19 @@ body{
     color: white;
     margin-top: 24px;
     font-size: 16px;
+}
+.scrollToTop{
+    background: url(../images/square.png)no-repeat;
+    background-size: 100%;
+    text-indent: -99999px;
+    width: 48px;
+    height: 49px;
+}
+
+.scrollToTop:hover{
+    background: url(../images/square-hover.png)no-repeat;
+    background-size: 100%;
+    text-indent: -99999px;
+    width: 48px;
+    height: 49px;
 }
