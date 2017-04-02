@@ -394,6 +394,9 @@ body{
     font-family: 'Hind', sans-serif;
     text-decoration: none;
 }
+.list_1 li a:hover{
+    color:whitesmoke;
+}
 .sms_plan{
     text-align: center;
     margin-bottom: 59px;
